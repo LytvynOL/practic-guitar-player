@@ -11,7 +11,7 @@ $color-orange: #F28B64
     margin: 0 auto
 
 .main-section
-    height: 800px 
+    min-height: 800px 
     background: #F0F0F0
     padding-top: 16px
     overflow: hidden
@@ -30,7 +30,7 @@ $color-orange: #F28B64
         position: absolute
         z-index: 0
         top: 129px
-        right:34px
+        right:80px
     &__second-elipse
         position: absolute
         right: -120px
@@ -167,4 +167,82 @@ $color-orange: #F28B64
             height: 188px
      &_big
         width: 282px
-        height: 282px           
+        height: 282px
+.second-section
+    min-width: 700px
+    &__container
+        padding-top: 32px
+        position: relative
+    &__cards-box
+        display: flex
+        justify-content: space-between
+        margin-bottom: 25px
+    &__title
+        margin-bottom: 40px
+    &__cards-item
+        margin-right: 45px
+        &:last-child
+            margin-right: 0px
+    &__icon-box
+        display: flex
+        justify-content: space-evenly
+    &__first-elipse
+        position: absolute
+        top: 80px
+        right: -60px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        top: 364px
+        left: -60px
+        z-index: -1
+        
+           
+
+.cards-item
+    position: relative
+    width: 360px
+    height: 360px
+    background: #E2E2E2
+    border-radius: 10px
+    display: flex
+    align-items: flex-end
+    &__img
+        height: 332px
+    &__text
+        width: 280px
+        font-size: 36px
+        text-align: center
+        transform: rotate(90deg)
+        position: absolute
+        top: 144px
+        right: -40px
+    &__two
+        position: relative
+        width: 360px
+        height: 360px
+        background: #F28B64
+        border-radius: 10px
+        display: flex
+        align-items: flex-end
+    &__thre
+        position: relative
+        width: 360px
+        height: 360px
+        background: #5290EA
+        border-radius: 10px
+        display: flex
+        align-items: flex-end 
+
+.icons-item
+    display: inline-flex
+    align-items: center
+    &:last-child
+        margin-right: 0px
+    &__text
+        font-size: 18px
+        span
+            font-size:48px
+    &__img
+        margin-right: 20px
+        width: 80px
