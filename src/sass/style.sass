@@ -9,6 +9,7 @@ $color-orange: #F28B64
 .container
     max-width: 1140px
     margin: 0 auto
+    position: relative
 
 .main-section
     min-height: 800px 
@@ -43,6 +44,9 @@ $color-orange: #F28B64
     &__list-item
         margin-right: 64px
         font-size: 18px
+        a
+            text-decoration: none
+            color: black
         &:last-child
             margin-right: 0px
 
@@ -246,3 +250,44 @@ $color-orange: #F28B64
     &__img
         margin-right: 20px
         width: 80px
+
+.third-section
+    position: relative
+    min-height: 640px
+    background: #F0F0F0
+    z-index: 0
+    overflow: hidden
+    &__container
+        display: flex
+        flex-direction: row
+        align-items: center
+        padding-left: 167px
+        padding-top: 46px
+        justify-content: space-between
+    &__right-wrapper
+        max-width: 479px
+    &__right-title
+            margin-bottom: 20px
+    &__text
+        margin-bottom: 30px
+        font-size: 18px
+    &__first-elipse
+        position: absolute
+        top: 190px
+        left: 110px
+        z-index: -1
+    &__figura
+        position: absolute
+        top: 219px
+        left: 41px
+        z-index: -1
+        height: 180px
+        width: 180px
+    &__second-elipse
+        position: absolute
+        right: -70px
+        top: -80px
+       
+    
+.title__hr_top
+    bottom: 75px

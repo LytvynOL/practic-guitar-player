@@ -5,6 +5,7 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-section {
@@ -45,6 +46,10 @@
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+}
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
 }
 .nav-menu__list-item:last-child {
   margin-right: 0px;
@@ -291,4 +296,53 @@
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
+}
+
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  z-index: 0;
+  overflow: hidden;
+}
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 167px;
+  padding-top: 46px;
+  justify-content: space-between;
+}
+.third-section__right-wrapper {
+  max-width: 479px;
+}
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+.third-section__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.third-section__first-elipse {
+  position: absolute;
+  top: 190px;
+  left: 110px;
+  z-index: -1;
+}
+.third-section__figura {
+  position: absolute;
+  top: 219px;
+  left: 41px;
+  z-index: -1;
+  height: 180px;
+  width: 180px;
+}
+.third-section__second-elipse {
+  position: absolute;
+  right: -70px;
+  top: -80px;
+}
+
+.title__hr_top {
+  bottom: 75px;
 }/*# sourceMappingURL=style.css.map */
