@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "MontseratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MontseratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  font-family: "MontseratT";
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -46,6 +62,7 @@
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav-menu__list-item a {
   text-decoration: none;
@@ -143,6 +160,7 @@
 .title {
   font-size: 72px;
   position: relative;
+  font-weight: bold;
 }
 .title__hr {
   width: 60px;
@@ -260,6 +278,7 @@
   position: absolute;
   top: 144px;
   right: -40px;
+  font-weight: bold;
 }
 .cards-item__two {
   position: relative;
@@ -283,15 +302,14 @@
 .icons-item {
   display: inline-flex;
   align-items: center;
-}
-.icons-item:last-child {
-  margin-right: 0px;
+  height: 130px;
 }
 .icons-item__text {
   font-size: 18px;
 }
 .icons-item__text span {
   font-size: 48px;
+  font-weight: bold;
 }
 .icons-item__img {
   margin-right: 20px;
@@ -345,4 +363,19 @@
 
 .title__hr_top {
   bottom: 75px;
+}
+
+.four-section__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+.four-section__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.four-section__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
